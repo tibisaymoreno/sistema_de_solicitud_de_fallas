@@ -20,21 +20,21 @@
 					<a href="login.html"><li>salir</li></a>
 				</ul>
 			</nav>
-			<form action="usuario.html" method="POST">
-				<div>
+			<form action="usuarios.html" method="POST">
+				<div class="booton">
 					<label>Nombres</label>
 					<input type="text" name="Nom" value="">
 				</div>
-			<div>
+			<div class="booton">
 				<label>apellidos</label>
 				<input type="text" name="ape" value="">
 			</div>
 
-			<div>
-				<label for="telefono">Cedula</label>
+			<div class="booton">
+				<label for="Cedula">Cedula</label>
 				<input id="Cedula" type="number" name="Cedula">
 			</div>
-			<div>
+			<div class="booton">
 				<label>sexo</label>
 				<label for="mas">Masculino</label>
 				<input id="mas" type="radio" name="sexo" value="1">
@@ -42,11 +42,11 @@
 				<label for="fe">Femenino</label>
 				<input id="fe" type="radio" name="sexo" value="2" >
 			</div>
-			<div>
+			<div class="booton">
 				<label>comentario</label>
 				<textarea name="com"></textarea>
 			</div>
-			<div>
+			<div class="booton">
 				<label>opciones de fallas de la maquina</label>
 				<select name="op">
 					<option value="1">Monitor</option>
@@ -61,7 +61,7 @@
 					<option value="1">Software</option>
 				</select>
 			</div>
-			<div>
+			<div class="booton">
 				<input type="submit" value="enviar">
 			</div>
 		</form>
