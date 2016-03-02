@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div id="container">
+		<header> <h1>SISTEMA DE SOLICITUD DE SOPORTE TECNICO A LOS EQUIPOS DE LA ACADEMIA DE SOFTWARE LIBRE FUNDACITE</h1></header>
+		<section>
+			<nav>
+				<ul>
+					<a href="index.html"><li>Inicio</li></a>
+					<a href="usuarios.html"><li>Usuario</li></a>
+					<a href="Mision.html"><li>Mision</li></a>
+					<a href="Vision.html"><li>Vision</li></a>
+					<a href="login.html"><li>salir</li></a>
+				</ul>
+			</nav>
+			<form action="usuario.html" method="POST">
+				<div>
+					<label>Nombres</label>
+					<input type="text" name="Nom" value="">
+				</div>
+			<div>
+				<label>apellidos</label>
+				<input type="text" name="ape" value="">
+			</div>
+
+			<div>
+				<label for="telefono">Cedula</label>
+				<input id="Cedula" type="number" name="Cedula">
+			</div>
+			<div>
+				<label>sexo</label>
+				<label for="mas">Masculino</label>
+				<input id="mas" type="radio" name="sexo" value="1">
+
+				<label for="fe">Femenino</label>
+				<input id="fe" type="radio" name="sexo" value="2" >
+			</div>
+			<div>
+				<label>comentario</label>
+				<textarea name="com"></textarea>
+			</div>
+			<div>
+				<label>opciones de fallas de la maquina</label>
+				<select name="op">
+					<option value="1">Monitor</option>
+					<option value="2">Teclado</option>
+					<option value="3">Mause</option>
+					<option value="4">keis</option>
+					<option value="5">Red</option>
+					<option value="6">Lector de DVD</option>
+					<option value="7">Puertos USB</option>
+					<option value="8">Fuente de Poder</option>
+					<option value="9">Hardware</option>
+					<option value="1">Software</option>
+				</select>
+			</div>
+			<div>
+				<input type="submit" value="enviar">
+			</div>
+		</form>
+	</section>
+	<footer>
+		<ul>
+			<li>desarrollado por: Tibisay Moreno 04268729337 correo:anatibisay19@gmail.com</li>
+
+		</ul>
+	</footer>
+</div>
+</body>
+</html>
